@@ -1,0 +1,89 @@
+@font-facxe {
+  
+  font-family: 'Orbitron';
+  src: url('http://fonts.googleapis.com/css?family=Orbitron');
+}
+
+body {
+  background-color: #6f7685;
+}
+
+footer {
+  color: white;
+}
+
+.calculator {
+  
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  
+  background-color: #babbb5;
+  width: 23em;
+  height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+  border-style: solid;
+  border-width: 2px;
+  border-color: #949590;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+button {
+
+  width: 4em;
+  height: 4em;
+  margin: .5em;
+  
+  border-radius: 12px;
+  box-shadow: 1px 1px 1px 1px;
+  outline: none;
+  
+  background-color: #d0c7a8;
+}
+
+.title {
+  
+  margin: 2em auto 0.5em auto;
+  font-family: impact;
+}
+
+.display {
+  
+  width: 19em;
+  margin: 1em auto 1em auto;
+  
+  box-shadow: inset 0px 0px 8px 1px;
+  background-color: rgba(255, 255, 255, 0.4);
+  
+  font-family: Obitron;
+  overflow: hidden;
+}
+
+.pushLeft {
+  margin-left: 2em;
+}
+
+.pushDown {
+  margin-bottom: 2em;
+}
+
+.equalButton {
+
+    height: 9em;
+    margin-bottom: -4.5em;
+}
+
+.zeroButton {
+    width: 9em;
+}
+
+.redButton {
+  background-color: #AA7473;
+}
